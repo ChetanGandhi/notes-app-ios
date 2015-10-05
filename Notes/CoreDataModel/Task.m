@@ -1,16 +1,19 @@
 //
-//  Note.m
+//  Task.m
 //  Notes
 //
 //  Created by Cheta Gandhi on 02/10/15.
 //  Copyright (c) 2015 Tukargiri. All rights reserved.
 //
 
-#import "Note.h"
+#import "Task.h"
+#import "List.h"
 
-@implementation Note
 
-@dynamic createdOn;
+@implementation Task
+
+@dynamic done;
 @dynamic details;
+@dynamic list;
 
 @end

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41701EF1BBEF1AE00662968 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41701EE1BBEF1AE00662968 /* QuartzCore.framework */; };
+		B472EB0C1BBEAB9B000E307E /* ListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB0B1BBEAB9B000E307E /* ListManager.m */; };
+		B472EB0F1BBEAC16000E307E /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB0E1BBEAC16000E307E /* List.m */; };
+		B472EB151BBEACBF000E307E /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB141BBEACBF000E307E /* Note.m */; };
+		B472EB181BBEB512000E307E /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB171BBEB512000E307E /* TaskCell.m */; };
+		B472EB1B1BBEC43F000E307E /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB1A1BBEC43F000E307E /* TaskManager.m */; };
+		B472EB211BBEC748000E307E /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B472EB201BBEC748000E307E /* Task.m */; };
 		B4DE67FF1BBDB52B008073AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE67FE1BBDB52B008073AE /* main.m */; };
 		B4DE68021BBDB52B008073AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE68011BBDB52B008073AE /* AppDelegate.m */; };
 		B4DE68051BBDB52B008073AE /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4DE68031BBDB52B008073AE /* Notes.xcdatamodeld */; };
@@ -15,7 +22,6 @@
 		B4DE680D1BBDB52B008073AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DE680C1BBDB52B008073AE /* Images.xcassets */; };
 		B4DE68101BBDB52B008073AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DE680E1BBDB52B008073AE /* LaunchScreen.xib */; };
 		B4DE681C1BBDB52B008073AE /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE681B1BBDB52B008073AE /* NotesTests.m */; };
-		B4DE682F1BBDCA5C008073AE /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE682E1BBDCA5C008073AE /* Note.m */; };
 		B4DE68321BBDCA7E008073AE /* NotesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE68311BBDCA7E008073AE /* NotesManager.m */; };
 		B4DE68381BBDD98A008073AE /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DE68371BBDD98A008073AE /* NoteCell.m */; };
 /* End PBXBuildFile section */
@@ -31,6 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41701EE1BBEF1AE00662968 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B472EB0A1BBEAB9B000E307E /* ListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManager.h; sourceTree = "<group>"; };
+		B472EB0B1BBEAB9B000E307E /* ListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListManager.m; sourceTree = "<group>"; };
+		B472EB0D1BBEAC16000E307E /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		B472EB0E1BBEAC16000E307E /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		B472EB131BBEACBF000E307E /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		B472EB141BBEACBF000E307E /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		B472EB161BBEB512000E307E /* TaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		B472EB171BBEB512000E307E /* TaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
+		B472EB191BBEC43F000E307E /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
+		B472EB1A1BBEC43F000E307E /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
+		B472EB1F1BBEC748000E307E /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B472EB201BBEC748000E307E /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		B4DE67F91BBDB52B008073AE /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DE67FD1BBDB52B008073AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DE67FE1BBDB52B008073AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +64,6 @@
 		B4DE68151BBDB52B008073AE /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DE681A1BBDB52B008073AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DE681B1BBDB52B008073AE /* NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTests.m; sourceTree = "<group>"; };
-		B4DE682D1BBDCA5C008073AE /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
-		B4DE682E1BBDCA5C008073AE /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		B4DE68301BBDCA7E008073AE /* NotesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesManager.h; sourceTree = "<group>"; };
 		B4DE68311BBDCA7E008073AE /* NotesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesManager.m; sourceTree = "<group>"; };
 		B4DE68361BBDD98A008073AE /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41701EF1BBEF1AE00662968 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,7 @@
 		B4DE67F01BBDB52B008073AE = {
 			isa = PBXGroup;
 			children = (
+				B41701EE1BBEF1AE00662968 /* QuartzCore.framework */,
 				B4DE67FB1BBDB52B008073AE /* Notes */,
 				B4DE68181BBDB52B008073AE /* NotesTests */,
 				B4DE67FA1BBDB52B008073AE /* Products */,
@@ -97,6 +116,10 @@
 				B4DE682C1BBDCA48008073AE /* CoreDataModel */,
 				B4DE680C1BBDB52B008073AE /* Images.xcassets */,
 				B4DE680E1BBDB52B008073AE /* LaunchScreen.xib */,
+				B472EB0A1BBEAB9B000E307E /* ListManager.h */,
+				B472EB0B1BBEAB9B000E307E /* ListManager.m */,
+				B472EB161BBEB512000E307E /* TaskCell.h */,
+				B472EB171BBEB512000E307E /* TaskCell.m */,
 				B4DE68091BBDB52B008073AE /* Main.storyboard */,
 				B4DE68061BBDB52B008073AE /* MainViewController.h */,
 				B4DE68071BBDB52B008073AE /* MainViewController.m */,
@@ -105,6 +128,8 @@
 				B4DE68031BBDB52B008073AE /* Notes.xcdatamodeld */,
 				B4DE68301BBDCA7E008073AE /* NotesManager.h */,
 				B4DE68311BBDCA7E008073AE /* NotesManager.m */,
+				B472EB191BBEC43F000E307E /* TaskManager.h */,
+				B472EB1A1BBEC43F000E307E /* TaskManager.m */,
 				B4DE67FC1BBDB52B008073AE /* Supporting Files */,
 			);
 			path = Notes;
@@ -139,8 +164,12 @@
 		B4DE682C1BBDCA48008073AE /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				B4DE682D1BBDCA5C008073AE /* Note.h */,
-				B4DE682E1BBDCA5C008073AE /* Note.m */,
+				B472EB0D1BBEAC16000E307E /* List.h */,
+				B472EB0E1BBEAC16000E307E /* List.m */,
+				B472EB131BBEACBF000E307E /* Note.h */,
+				B472EB141BBEACBF000E307E /* Note.m */,
+				B472EB1F1BBEC748000E307E /* Task.h */,
+				B472EB201BBEC748000E307E /* Task.m */,
 			);
 			path = CoreDataModel;
 			sourceTree = "<group>";
@@ -245,12 +274,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DE682F1BBDCA5C008073AE /* Note.m in Sources */,
+				B472EB181BBEB512000E307E /* TaskCell.m in Sources */,
 				B4DE68381BBDD98A008073AE /* NoteCell.m in Sources */,
 				B4DE68321BBDCA7E008073AE /* NotesManager.m in Sources */,
+				B472EB0F1BBEAC16000E307E /* List.m in Sources */,
+				B472EB211BBEC748000E307E /* Task.m in Sources */,
 				B4DE68021BBDB52B008073AE /* AppDelegate.m in Sources */,
 				B4DE68051BBDB52B008073AE /* Notes.xcdatamodeld in Sources */,
+				B472EB151BBEACBF000E307E /* Note.m in Sources */,
 				B4DE68081BBDB52B008073AE /* MainViewController.m in Sources */,
+				B472EB0C1BBEAB9B000E307E /* ListManager.m in Sources */,
+				B472EB1B1BBEC43F000E307E /* TaskManager.m in Sources */,
 				B4DE67FF1BBDB52B008073AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

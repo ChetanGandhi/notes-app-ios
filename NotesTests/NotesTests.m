@@ -2,7 +2,7 @@
 //  NotesTests.m
 //  NotesTests
 //
-//  Created by Demo on 02/10/15.
+//  Created by Cheta Gandhi on 02/10/15.
 //  Copyright (c) 2015 Tukargiri. All rights reserved.
 //
 

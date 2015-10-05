@@ -1,5 +1,5 @@
 //
-//  Note.h
+//  Task.h
 //  Notes
 //
 //  Created by Cheta Gandhi on 02/10/15.
@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@interface Note : NSManagedObject
+@class List;
 
-@property (nonatomic, retain) NSDate * createdOn;
+@interface Task : NSManagedObject
+
+@property (nonatomic, retain) NSNumber * done;
 @property (nonatomic, retain) NSString * details;
+@property (nonatomic, retain) List *list;
 
 @end

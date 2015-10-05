@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Note.h"
+#import "List.h"
+#import "Task.h"
 
-@interface NotesManager : NSObject
+@interface TaskManager : NSObject
 
--(NSArray *)allNotes;
--(Note *)addNote:(NSString *)data;
+-(Task *)createTaskWithDetails:(NSString *)details done:(BOOL)done forList:(List *)list;
 
 @end
